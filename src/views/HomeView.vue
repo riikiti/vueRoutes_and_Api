@@ -1,5 +1,5 @@
 <template>
-  <h1>hello world!</h1>
+  <h2>hello world!</h2>
   <p>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa dignissimos
     quas reprehenderit rem culpa quos possimus, dolor corrupti. Autem animi

@@ -4,17 +4,35 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-  }
-  
-  nav {
-    padding: 30px;
-  
-    a {
-      font-weight: bold;
-      color: #2c3e50;
-  
-      &.router-link-exact-active {
-        color: #42b983;
-      }
+}
+
+
+.job {
+    h2 {
+        background: #f4f4f4;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px auto;
+        max-width: 600px;
+        cursor: pointer;
+        color: #444;
+        &:hover {
+            background: #ddd;
+        }
     }
-  }
+    a {
+        text-decoration: none;
+    }
+}
+
+.navigation{
+    padding: 30px;
+    a{
+        padding: 20px;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+    }
+}
